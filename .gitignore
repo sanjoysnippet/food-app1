@@ -1,0 +1,16 @@
+
+# Hide environment files
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Allow example template
+!.env.example
+!**/.env.example
+
+# Ignore dependencies and build files
+node_modules/
+dist/
+build/
+

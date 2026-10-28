@@ -1,0 +1,19 @@
+{
+  "name": "foodexpress-backend",
+  "version": "1.0.0",
+  "description": "FoodExpress Food Delivery Backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.8",
+    "express": "^5.2.1",
+    "mongoose": "^8.24.5",
+    "multer": "^2.4.0"
+  }
+}
